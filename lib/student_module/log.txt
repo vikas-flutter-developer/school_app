@@ -1,0 +1,28 @@
+Tab bar and notifications                                                               (color,styles,decors)
+    - for bg,used grey200 instead of 300 for consistency
+    - calender events excluded
+Attendance&timetable&report                                                             (color,styles,decors)
+Bus Tracking                                                         INCOMPLETE module  (colors,styles,decors)partly
+fee details                                                                             (color,styles,decors)
+    -payment card tiles excluded
+    - minor color adjustments in transaction_status,payment_screen,feedue_screen
+    -renamed fess to fees everywhere
+study material                                                                          (color,styles,decors)
+    - minor color adjustments
+syllabus&assignment&homework                                                            (color,styles,decors)
+    - minor color adjustments in submit screen
+
+
+
+merge attendance and timetable screens(completed)
+merge profile and edit profile screens(completed)
+file structure same as figma design
+
+
+TODO:
+should create utils for widgets,decorations,shadows.
+padding is left out in some places, should be added for one side or symmetric
+image paths should be stored in a separate file. after receiving the final images
+
+NOTES:
+syllabus and assignments and homework -  subjects are hard coded

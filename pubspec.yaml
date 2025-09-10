@@ -1,0 +1,69 @@
+name: edudibon_flutter_bloc
+description: "A new Flutter project."
+publish_to: 'none'
+version: 2.0.0+1
+
+environment:
+  sdk: '>=3.7.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.8
+  flutter_bloc: ^9.1.0
+  equatable: ^2.0.7
+  google_fonts: ^4.0.0
+  otp_text_field: ^1.1.3
+  flutter_staggered_animations: ^1.1.0
+  http: ^1.3.0
+  modal_progress_hud_nsn: ^0.5.1-nullsafety-1
+  intl: ^0.20.2
+  pie_chart: ^5.4.0
+  image_picker: ^1.1.2
+  table_calendar: ^3.2.0
+  bloc: ^9.0.0
+  shared_preferences: ^2.5.3
+  dotted_border: ^2.1.0
+  persistent_bottom_nav_bar: ^5.0.2
+  uuid: ^4.5.1
+  fl_chart: ^0.71.0
+  percent_indicator: ^4.2.5
+  go_router: ^16.0.0
+  syncfusion_flutter_gauges: ^30.1.41
+  flutter_dotenv: ^5.2.1
+  provider: ^6.1.5
+  custom_pop_up_menu: ^1.2.4
+  open_file: ^3.5.10
+  open_route_service: ^1.2.7
+  flutter_map: ^8.2.1
+  supabase_flutter: ^2.9.1
+  flutter_polyline_points: ^3.0.1
+  geolocator: ^14.0.2
+  permission_handler: ^12.0.1
+  collection: ^1.19.1
+  flutter_map_location_marker: ^10.1.0
+  latlong2: ^0.9.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  # CHANGE 1: I moved flutter_launcher_icons from dependencies to here
+  flutter_launcher_icons: ^0.13.1 # Using a specific stable version
+  rename: ^3.1.0
+
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/
+
+# CHANGE 2: Add this configuration block at the very end of the file
+# Make sure its indentation is correct (it should not have any spaces before it).
+flutter_launcher_icons:
+  android: "launcher_icon"
+  ios: true
+  image_path: "assets/images/logo.png" # Make sure your logo is at this path
